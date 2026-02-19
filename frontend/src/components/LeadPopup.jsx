@@ -44,7 +44,6 @@ const LeadPopup = () => {
           opacity: 0, duration: 0.2,
           onComplete: () => {
             setVisible(false);
-            localStorage.setItem(STORAGE_KEY, 'true');
           }
         });
       }
