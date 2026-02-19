@@ -10,7 +10,6 @@ const LeadPopup = () => {
   const [submitting, setSubmitting] = useState(false);
   const [formData, setFormData] = useState({ name: '', mobile: '', segment: '' });
   const [errors, setErrors] = useState({});
-  const [dropdownOpen, setDropdownOpen] = useState(false);
   const overlayRef = useRef(null);
   const modalRef = useRef(null);
 
